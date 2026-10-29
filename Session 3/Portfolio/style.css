@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo img{
+    width: 550px;
+}
+
+.port{
+    font-family: "Blackadder ITC";
+    color: rgb(57, 57, 57);
+    font-size: 95px;
+    position: absolute;
+    top: 390px; 
+}
+
+.folio {
+    font-family: "Blackadder ITC";
+    color: rgb(57, 57, 57);
+    font-size: 100px;
+    position: absolute;
+    top: 490px;
+    left: 185px;
+}
+
+
+.year {
+    position: absolute;
+    font-family: Arial, Helvetica;
+    font-weight: bolder;
+    top: 130px;
+    left: 110px;
+    background: #393939;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    transform: rotate(-12deg);
+}
+
+.star {
+    position: absolute;
+    font-size: 40px;
+    top: 430px;
+    left: 520px;
+    color: #393939;
+    transform: rotate(-12deg);
+
+
+}
+
+.name {
+position: absolute;
+top: 20px;
+left: -300px ;
+font-size: 26px;
+color: #393939;
+font-family: "Blackadder ITC";
+
+}
+
+
+/* content */
+
+/* about */
+.about {
+    width: 720px;
+    margin: 0 auto;
+    padding: 200px 0;
+}
+
+.about h2 {
+    font-family: "Blackadder ITC";
+    font-size: 55px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.about p {
+    margin-top: 25px;
+    font-family:Inter ;
+    font-weight: 400;
+    color: #363535f0;
+    line-height: 1.8;
+}
+/* education */
+.education {
+    width: 720px;
+    margin: 0 auto ;
+    padding: 150px 0;
+}
+
+.education h2 {
+    font-family: "Blackadder ITC";
+    font-size: 55px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.entry {
+    display: flex;
+    padding: 25px 0;
+    gap: 0px;
+    border-bottom: 1px solid #e5e5e5;
+    font-family:Inter ;
+    font-weight: 400;
+    color: #363535f0;
+    line-height: 1.5;
+}
+.place {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.date {
+    margin: 0;
+    width: 150px;
+}
+/* skills */
+.skills {
+    width: 720px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.skills h2 {
+    font-family: "Blackadder ITC";
+    font-size: 55px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* experience */
+.experience {
+    width: 720px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.experience h2 {
+    font-family: "Blackadder ITC";
+    font-size: 55px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+/* projects */
+.projects {
+    width: 720px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.projects h2 {
+    font-family: "Blackadder ITC";
+    font-size: 55px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.projects {
+    width: 720px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.projects h2 {
+    font-family: "Blackadder ITC";
+    font-size: 55px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.project {
+    display: flex;
+    gap: 24px;
+    padding: 26px 0;
+    border-bottom: 1px solid #e5e5e5;
+    text-decoration: none;
+    color: #363535f0;
+    font-family: Inter;
+}
+
+.project-title {
+    flex: 1;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.project-type {
+    font-size: 14px;
+    color: #7a7a7a;
+}
+
+.project-year {
+    width: 70px;
+    text-align: right;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+
+/* contact */
+.contact {
+    width: 720px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.contact h2 {
+    font-family: "Blackadder ITC";
+    font-size: 55px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.contact-text {
+    margin-top: 25px;
+    font-family: Inter;
+    font-weight: normal;
+    color: #363535f0;
+    line-height: 1.8;
+}
+
+.socials {
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.socials a {
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: #393939;
+}
